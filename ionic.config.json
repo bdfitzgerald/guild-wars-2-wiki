@@ -1,5 +1,6 @@
 {
   "name": "guild-wars-2-wiki",
   "app_id": "",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "integrations": {}
 }

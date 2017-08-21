@@ -9,8 +9,17 @@ import { HomePage } from '../pages/home/home';
 })
 export class MyApp {
   rootPage:any = HomePage;
+  pages: any;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
+
+    this.pages = [
+      { title: 'Home', component: '' },
+      { title: 'Notices', component: '' },
+      { title: 'Events', component: '' },
+      { title: 'Bookings', component: '' },
+      { title: 'Members', component: '' }
+    ];
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
